@@ -1,4 +1,6 @@
-﻿using System;
+﻿using demo_1.Views.Home;
+using demo_1.Views.Product;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +12,8 @@ namespace demo_1
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new VHPrincipal());
+            //MainPage =new VPPrincipal();
         }
 
         protected override void OnStart()

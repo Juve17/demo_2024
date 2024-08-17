@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="demo_1.Views.Home.VHPrincipal"
+             BackgroundImageSource="https://northperurentacar.com.pe/wp-content/uploads/2023/05/alquiler-de-auto-viaje-talara-piura-peru-15-1.jpg"
+             xmlns:Home="clr-namespace:demo_1.Views.Home"
+             > 
+    <ContentPage.Content>
+        <StackLayout> 
+            <Home:VHHeader Padding="0,60"/>
+            <Home:VHBody />
+            <Home:VHFooter VerticalOptions="End"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

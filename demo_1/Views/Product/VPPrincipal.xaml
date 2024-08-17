@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="demo_1.Views.Product.VPPrincipal"
+             Title="Productos"
+             >
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Frame HasShadow="False" 
+                   CornerRadius="50" 
+                   Padding="5" 
+                   Margin="30,20">
+                <StackLayout >
+                    <Entry Placeholder="Buscar..."/>
+                </StackLayout>
+            </Frame>
+            <Grid ColumnDefinitions="*,*,*">
+                <Button Grid.Column="0" 
+                        Text="Hotel"
+                        CornerRadius="50"
+                        Margin="10,0"
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        />
+                <Button Grid.Column="1" 
+                         Text="Hotel"
+                         CornerRadius="50"
+                         Margin="10,0"
+                         />
+                <Button Grid.Column="2" 
+                         Text="Hotel"
+                         CornerRadius="50"
+                         Margin="10,0"
+                         />
+            </Grid>
+            <Frame Padding="0" 
+                   Margin="40,20"  
+                   CornerRadius="50" 
+                   HeightRequest="200"
+                   HasShadow="True">
+                <Image Aspect="AspectFill" 
+                       Source="https://northperurentacar.com.pe/wp-content/uploads/2023/05/alquiler-de-auto-viaje-talara-piura-peru-15-1.jpg"/>
+            </Frame>
+            <Frame Margin="40,20" CornerRadius="20">
+                <StackLayout>
+                    <Label Text="Ingresar el Primer Número"/>
+                    <Entry Placeholder="Ingrese el primer Número" 
+                           TextColor="Blue" 
+                           FontAttributes="Bold"
+                           x:Name="txtvalor1"/>
+                    <Label Text="Ingresar el Segundo Número"/>
+                    <Entry Placeholder="Ingrese el segundo Número" 
+                           TextColor="Blue" 
+                           FontAttributes="Bold"
+                           x:Name="txtvalor2"/>
+                    <Button x:Name="btnSumar"
+                            Clicked="btnSumar_Clicked"
+                            Text="Sumar" 
+                            Style="{StaticResource btn-green}" />
+                    <Label Text="" x:Name="lblResulado" 
+                          TextColor="{StaticResource PKColor}"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           FontSize="30"
+                           />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

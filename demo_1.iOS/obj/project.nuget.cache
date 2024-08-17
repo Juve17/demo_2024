@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "LDiv+sw5/9I=",
+  "success": true,
+  "projectFilePath": "D:\\Jv\\XAMARIN\\demo_1\\demo_1.iOS\\demo_1.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ALUMNO-ETIA\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ALUMNO-ETIA\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ALUMNO-ETIA\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
